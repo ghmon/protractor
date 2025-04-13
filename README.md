@@ -2,7 +2,7 @@
 
 Measure angles in the browser.
 
-Published: https://chrome.google.com/webstore/detail/protractor/kpjldaeddnfokhmgdlmpdlecmobaonnj?hl=en
+ORIGINAL chrome extension: https://chrome.google.com/webstore/detail/protractor/kpjldaeddnfokhmgdlmpdlecmobaonnj?hl=en
 
 ## Notes
 
