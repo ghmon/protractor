@@ -24,10 +24,10 @@ Display = function({ settings }) {
 
     const { sub0, sub1, deltaA, deltaB } = this.buildFormattedStrings(...this.guideThetas);
 
-    this.deltaA.innerHTML = deltaA;
-    this.deltaB.innerHTML = deltaB;
-    this.sub0.innerHTML = sub0;
-    this.sub1.innerHTML = sub1;
+    this.deltaA.textContent = deltaA;
+    this.deltaB.textContent = deltaB;
+    this.sub0.textContent = sub0;
+    this.sub1.textContent = sub1;
 
     this.node.appendChild(this.deltaA);
     this.node.appendChild(this.deltaB);
@@ -122,10 +122,10 @@ Display.prototype = {
 
         const { sub0, sub1, deltaA, deltaB } = this.buildFormattedStrings(...this.guideThetas);
 
-        this.deltaA.innerHTML = deltaA;
-        this.deltaB.innerHTML = deltaB;
-        this.sub0.innerHTML = sub0;
-        this.sub1.innerHTML = sub1;
+        this.deltaA.textContent = deltaA;
+        this.deltaB.textContent = deltaB;
+        this.sub0.textContent = sub0;
+        this.sub1.textContent = sub1;
     },
 
     setMode: function(msg) {

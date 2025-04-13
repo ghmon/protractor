@@ -23,7 +23,7 @@ Label = function({ settings, rad }) {
 
     this.node = document.createElement('div');
     this.node.className = 'protractor-extension-label';
-    this.node.innerHTML = value;
+    this.node.textContent = value;
 
     PubSub.subscribe(Channels.MOVE_CONTAINER, this);
     PubSub.subscribe(Channels.MOVE_HANDLE_ROTATE, this);

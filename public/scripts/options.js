@@ -23,7 +23,7 @@ const intervals = [
 function updatePrecision(precision) {
     document.getElementById('precision-slider').value = precision;
     document.getElementById('precision-value')
-        .innerHTML = `${precision} digit${precision === 1 ? '' : 's'}`;
+        .textContent = `${precision} digit${precision === 1 ? '' : 's'}`;
 }
 
 function updateMarkerInterval(interval, units) {
@@ -35,7 +35,7 @@ function updateMarkerInterval(interval, units) {
         : `${Math.round(rad * 100) / 100} rad`);
 
     document.getElementById('marker-interval-slider').value = intervals.indexOf(rad);
-    document.getElementById('marker-interval-value').innerHTML = str;
+    document.getElementById('marker-interval-value').textContent = str;
 }
 
 //===== Event listeners
